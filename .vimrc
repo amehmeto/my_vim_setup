@@ -30,7 +30,7 @@ let g:syntastic_php_phpmd_post_args = 'cleancode,codesize,controversial,design,u
 "	Conoline configuration
 let g:conoline_auto_enable = 1
 let g:conoline_color_normal_light = "ctermbg=240"
-let g:conoline_color_normal_nr_light = "ctermbg=240 ctermfg=white"
+let g:conoline_color_normal_nr_light = "ctermbg=blue ctermfg=white"
 let g:conoline_color_insert_light = "ctermbg=black"
 let g:conoline_color_insert_nr_light = "ctermbg=red"
 
@@ -38,6 +38,7 @@ set number
 set autoindent
 set smartindent
 set mouse=a
+set showcmd
 set tabstop=4
 set term=xterm 
 set nocompatible
